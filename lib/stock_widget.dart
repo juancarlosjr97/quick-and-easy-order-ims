@@ -1,22 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
-
 class StockWidget extends StatefulWidget {
-
   @override
   StockWidgetApp createState() => new StockWidgetApp();
 }
 
-class StockWidgetApp extends State<StockWidget > {
-
+class StockWidgetApp extends State<StockWidget> {
   @override
   Widget build(BuildContext context) {
     return StreamBuilder<QuerySnapshot>(
       stream: Firestore.instance.collection('stock').snapshots(),
       builder: (context, snapshot) {
-        if (!snapshot.hasData)
-          return LinearProgressIndicator();
+        if (!snapshot.hasData) return LinearProgressIndicator();
         return _buildList(context, snapshot.data.documents);
       },
     );
@@ -67,7 +63,6 @@ class Record {
         item = map['item'],
         instock = map['instock'];
 
-  Record.fromSnapshot(DocumentSnapshot snapshot) : this.fromMap(snapshot.data, reference: snapshot.reference);
+  Record.fromSnapshot(DocumentSnapshot snapshot)
+      : this.fromMap(snapshot.data, reference: snapshot.reference);
 }
-
-

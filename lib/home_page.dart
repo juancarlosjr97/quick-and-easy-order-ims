@@ -5,7 +5,6 @@ import 'package:flutter_ims/stock_widget.dart';
 import 'package:flutter_ims/order_widget.dart';
 import 'package:flutter_ims/support_widget.dart';
 
-
 class MyHomePage extends StatelessWidget //Home Page
 {
   MyHomePage({this.auth, this.onSignedOut});
@@ -53,26 +52,26 @@ class MyHomePage extends StatelessWidget //Home Page
                   }),
               ListTile(
                 title: Text("Stock List"),
-								trailing: new Icon(Icons.home),
+                trailing: new Icon(Icons.home),
                 onTap: () {
                   Navigator.pop(context);
                   Navigator.of(context).pushNamed('/home');
                 },
               ),
-							ListTile(
-									title: Text("Order Page"),
-									trailing: new Icon(Icons.reorder),
-									onTap: () {
-										Navigator.pop(context);
-										Navigator.of(context).pushNamed('/home');
-									}),
-							ListTile(
-									title: Text("Support Page"),
-									trailing: new Icon(Icons.contact_mail),
-									onTap: () {
-										Navigator.pop(context);
-										Navigator.of(context).pushNamed('/home');
-									}),
+              ListTile(
+                  title: Text("Order Page"),
+                  trailing: new Icon(Icons.reorder),
+                  onTap: () {
+                    Navigator.pop(context);
+                    Navigator.of(context).pushNamed('/home');
+                  }),
+              ListTile(
+                  title: Text("Support Page"),
+                  trailing: new Icon(Icons.contact_mail),
+                  onTap: () {
+                    Navigator.pop(context);
+                    Navigator.of(context).pushNamed('/home');
+                  }),
               ListTile(
                 title: Text("Log Out"),
                 trailing: new Icon(Icons.dashboard),
@@ -100,9 +99,15 @@ class MyHomePage extends StatelessWidget //Home Page
             ),
             body: new TabBarView(
               children: <Widget>[
-                new Tab(child: new StockWidget(),),
-					new Tab(child: new OrderWidget(),),
-					new Tab(child: new SupportWidget(),),
+                new Tab(
+                  child: new StockWidget(),
+                ),
+                new Tab(
+                  child: new OrderWidget(),
+                ),
+                new Tab(
+                  child: new SupportWidget(),
+                ),
               ],
             ),
           ),
