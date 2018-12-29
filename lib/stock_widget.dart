@@ -14,6 +14,8 @@ class StockWidgetApp extends State<StockWidget> {
   Widget build(BuildContext context) {
     return StreamBuilder<QuerySnapshot>(
       stream: Firestore.instance.collection('users').document('SLsKGBPKSCc5Q98xItU07KQf9vF3').collection('stock').snapshots(),
+//      stream: Firestore.instance.collection('stock').snapshots(),
+
       builder: (context, snapshot) {
         if (!snapshot.hasData) return LinearProgressIndicator();
         return _buildList(context, snapshot.data.documents);
