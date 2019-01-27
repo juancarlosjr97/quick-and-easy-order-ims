@@ -49,9 +49,11 @@ Assume have `flutter` installed and using Android Studio. For help getting start
 
 ## Running the app
 
-  # Option 1 - [Using Android Studio](https://flutter.io/docs/get-started/test-drive?tab=androidstudio)
+  ### Option 1
+  [Using Android Studio](https://flutter.io/docs/get-started/test-drive?tab=androidstudio)
 
-  # Option 2 - [Using Terminal](https://flutter.io/docs/get-started/test-drive?tab=terminal)
+  ### Option 2
+  [Using Terminal](https://flutter.io/docs/get-started/test-drive?tab=terminal)
 
 ### Features
 * User creation
