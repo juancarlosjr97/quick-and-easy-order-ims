@@ -41,11 +41,13 @@ Assume have `flutter` installed and using Android Studio. For help getting start
 
 
     # Install dependencies
-    run `flutter packages` get on terminal
+    run flutter packages get
 
     # Run iOS Simulator
-    run `open -a Simulator.app`
-    * Check if a device is running `flutter devices`
+    run open -a Simulator.app
+
+    *Check if a device is running using
+    flutter devices
 
 ## Running the app
 
