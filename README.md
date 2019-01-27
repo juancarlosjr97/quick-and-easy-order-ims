@@ -46,7 +46,7 @@ Assume have `flutter` installed and using Android Studio. For help getting start
     # Run iOS Simulator
     run open -a Simulator.app
 
-    *Check if a device is running using
+    # Check if a device (iOS or Android) is running
     flutter devices
 
 ## Running the app
