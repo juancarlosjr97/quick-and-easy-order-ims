@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ims/auth.dart';
+import 'package:quick_easy_order/auth.dart';
 
 class LoginPage extends StatefulWidget {
   LoginPage({this.auth, this.onSignedIn});
