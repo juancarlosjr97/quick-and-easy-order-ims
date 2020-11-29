@@ -1,12 +1,15 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_ims/auth.dart';
-import 'package:flutter_ims/root_page.dart';
-import 'package:flutter_ims/home_page.dart';
-import 'package:flutter_ims/stock_widget.dart';
-import 'package:flutter_ims/order_widget.dart';
-import 'package:flutter_ims/support_widget.dart';
-
-void main() => runApp(new MyIMS());
+import 'package:quick_easy_order/auth.dart';
+import 'package:quick_easy_order/home_page.dart';
+import 'package:quick_easy_order/root_page.dart';
+import 'package:quick_easy_order/stock_widget.dart';
+import 'package:quick_easy_order/support_widget.dart';
+void main() async{
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+  runApp(new MyIMS());
+}
 
 //class MyIMS extends StatelessWidget {
 ////	 This widget is the root of your application.

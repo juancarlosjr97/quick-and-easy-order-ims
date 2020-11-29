@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ims/auth.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:flutter_ims/stock_widget.dart';
-import 'package:flutter_ims/order_widget.dart';
-import 'package:flutter_ims/support_widget.dart';
+import 'package:quick_easy_order/auth.dart';
+import 'package:quick_easy_order/order_widget.dart';
+import 'package:quick_easy_order/stock_widget.dart';
+import 'package:quick_easy_order/support_widget.dart';
 
 class MyHomePage extends StatelessWidget //Home Page
 {

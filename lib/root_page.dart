@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ims/login_page.dart';
-import 'package:flutter_ims/auth.dart';
-import 'package:flutter_ims/home_page.dart';
+import 'package:quick_easy_order/auth.dart';
+import 'package:quick_easy_order/home_page.dart';
+import 'package:quick_easy_order/login_page.dart';
+
 
 class RootPage extends StatefulWidget {
   RootPage({this.auth});
