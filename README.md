@@ -1,5 +1,12 @@
 # Inventory Management System - Quick & Easy Order
 
+
+<p>&nbsp;</p>
+
+> _This project has been deprecated and not longer maintened._
+
+<p>&nbsp;</p>
+
 The aim of Quick & Easy Order is to design, optimise and streamline Back-of-House street market or restaurant operations, saving time and money to the companies, improving the daily processes.
 
 - Project Description and Objectives
