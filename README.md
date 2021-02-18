@@ -3,7 +3,7 @@
 
 <p>&nbsp;</p>
 
-> _This project has been deprecated and not longer maintened._
+> _This project has been deprecated and not longer maintained._
 
 <p>&nbsp;</p>
 
