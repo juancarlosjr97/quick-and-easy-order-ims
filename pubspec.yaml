@@ -1,9 +1,8 @@
 ---
 name: flutter_ims
-description: A new Flutter project.
+description: Inventory Management System
 
-
-publish_to: 'none' 
+publish_to: 'none'
 
 version: 1.0.0+1
 
