@@ -1,4 +1,4 @@
-package com.juancarlosjr97.flutterims
+package com.example.flutter_ims
 
 import io.flutter.embedding.android.FlutterActivity
 
