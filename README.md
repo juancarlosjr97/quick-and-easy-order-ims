@@ -1,6 +1,5 @@
 # Inventory Management System - Quick & Easy Order
 
-
 <p>&nbsp;</p>
 
 > _This project has been deprecated and not longer maintained._
@@ -15,54 +14,42 @@ The aim of Quick & Easy Order is to design, optimise and streamline Back-of-Hous
   - Online purchasing - reducing employee cost
   - Central kitchen operations through the app
 
-## Documentation and testing
+## Requirements
 
-### Requirements
+- Xcode - v13.1 or higher
+- Android Studio - 2021.1.1 (Bumblebee) or higher
+- [Flutter v2.8.1](https://docs.flutter.dev/development/tools/sdk/releases)
+- [Firebase CLI - v10.1.2](https://firebase.google.com/docs/cli)
 
-- Flutter 1.20.4
+## Tests
 
-### Tested
+- Android - API 32 - arm64 architecture
+- iPhone 13 - iOS 15
 
-- Android 7
-- XCode 11.6
+### Google Cloud Platform
 
-### Google Cloud
+- Database: Cloud Firestore
+- Authentication: Firebase Authentication
 
-- Database - Cloud Firestore
-- Firebase Authentication
+## Installation
 
-## Before running the app
+### Flutter
 
-Assume have `flutter` installed and using Android Studio. For help getting started with [Flutter](https://flutter.io/), view the online documentation
+Follow the steps on the [flutter official documentation](https://docs.flutter.dev/get-started/install).
 
-    # Install flutter and dart plugin Android Studio
-    Start Android Studio.
-    Open plugin preferences (Preferences > Plugins on macOS, File > Settings > Plugins on Windows & Linux).
-    Select Browse repositories, select the Flutter plugin and click Install.
-    Click Yes when prompted to install the Dart plugin.
-    Click Restart when prompted.
+### Install dependencies
 
+```bash
+flutter pub get
+```
 
-    # Install dependencies
-    run flutter packages get
+### Run
 
-    # Run iOS Simulator
-    run open -a Simulator.app
+```bash
+flutter run
+```
 
-    # Check if a device (iOS or Android) is running
-    flutter devices
-
-## Running the app
-
-### Option 1
-
-[Using Android Studio](https://flutter.io/docs/get-started/test-drive?tab=androidstudio)
-
-### Option 2
-
-[Using Terminal](https://flutter.io/docs/get-started/test-drive?tab=terminal)
-
-### Features
+### Features Implemented
 
 - User creation
 - Login
